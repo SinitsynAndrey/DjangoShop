@@ -1,0 +1,82 @@
+[
+  {
+    "category": "дом",
+    "name": "дом1",
+    "image": "products/product-1.jpg",
+    "description": "Супер дом1",
+    "price": 111,
+    "quantity": 1
+  },
+  {
+    "category": "дом",
+    "name": "дом2",
+    "image": "products/product-2.jpg",
+    "description": "Супер дом2",
+    "price": 222,
+    "quantity": 2
+  },
+  {
+    "category": "дом",
+    "name": "дом3",
+    "image": "products/product-3.jpg",
+    "description": "Супер дом3",
+    "price": 333,
+    "quantity": 3
+  },
+  {
+    "category": "офис",
+    "name": "офис1",
+    "image": "products/product-4.jpg",
+    "description": "Супер офис1",
+    "price": 444,
+    "quantity": 4
+  },
+  {
+    "category": "офис",
+    "name": "офис2",
+    "image": "products/product-11.jpg",
+    "description": "Супер офис2",
+    "price": 555,
+    "quantity": 5
+  },
+  {
+    "category": "офис",
+    "name": "офис3",
+    "image": "products/product-21.jpg",
+    "description": "Супер офис3",
+    "price": 666,
+    "quantity": 6
+  },
+  {
+    "category": "модерн",
+    "name": "можерн1",
+    "image": "products/product-31.jpg",
+    "description": "супер модерн1",
+    "price": 777,
+    "quantity": 7
+  },
+  {
+    "category": "модерн",
+    "name": "модерн2",
+    "image": "products/product-41.jpg",
+    "description": "супер модерн 2",
+    "price": 888,
+    "quantity": 8
+  },
+  {
+    "category": "класика",
+    "name": "класика1",
+    "image": "products/product-51.jpg",
+    "description": "супер класика1",
+    "price": 999,
+    "quantity": 9
+  },
+  {
+    "category": "класика",
+    "name": "класика2",
+    "image": "products/product-51.jpg",
+    "description": "супер класика2",
+    "price": 1111,
+    "quantity": 10
+  }
+]

@@ -1,0 +1,21 @@
+{% extends 'authapp/base.html' %}
+{% load static %}
+
+{% block head %}
+    Изменить пользователя
+{% endblock %}
+
+{% block content %}
+    {% if user.avatar%}
+        <img src="/media/{{user.avatar}}">
+    {% else %}
+        <img src="{{user.url_avatar}}">
+    {% endif %}
+    <form class="form-horizontal" action="{% url 'auth:edit' %}" method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+        {{ edit_form.as_p }}
+        {{ profile_edit_form.as_p }}
+        <input class="btn btn-primary" type="submit" value="сохранить">
+    </form>
+    <a class="btn btn-primary" href="{% url 'main' %}" role="button">На главную</a>
+{% endblock %}
